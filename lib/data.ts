@@ -63,7 +63,7 @@ export const experiencesData = [
     location: "",
     description:
       "Project Manager and web developer of “Sihate”, a medical records management system that allows patients to make appointments and enables doctors to generate medical records and prescriptions. It was developed using Django Python framework, HTML5, CSS3, Bootstrap 5, and JavaScript.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Apr 2021 - Sep 2021",
   },
   {
@@ -71,15 +71,15 @@ export const experiencesData = [
     location: "",
     description:
       "Machine learning developer of the 'Dynamic Hand Gesture Recognition' project using 2D & 3D CNN.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "May 2022 - Jul 2022",
   },
   {
     title: "DJANGO WEB DEVELOPER",
     location: "",
     description:
-      "Machine learning developer of the 'Dynamic Hand Gesture Recognition' project using 2D & 3D CNN.",
-    icon: React.createElement(FaReact),
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
     date: "Aug 2022 - Nov 2022",
   },
 ] as const;
