@@ -35,28 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "FULL STACK DEVELOPER",
+    location: "",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Full stack developer of the Tripnest project, a platform for real estate rental services. Tripnest is built using the latest modern web technologies including Next.js 13, Prisma ORM, MongoDB, and more. It provides features for property listing, search, booking, and payment integration.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jan 2023 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Freelancer",
+    location: "Mostaql",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "As a freelance professional on Mostaql. Through effective communication and timely delivery, I consistently exceeded client expectations. This experience honed my ability to adapt to project requirements and work collaboratively in a remote environment. establishing a reputation for reliability and quality work.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2022",
+  },
+  {
+    title: "WEB DEVELOPER | BACKEND & FRONTEND",
+    location: "",
+    description:
+      "Web developer of “Educational committee management system - ECMS”, a project that involves the study, design, and implementation of a platform for managing committees within the Guelma University departments. It enables effective administration and control of course leaders while collecting and tracking educational activity progress from teachers and student delegates.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr 2020 - Sep 2020",
+  },
+  {
+    title: "PROJECT MANAGER & WEB DEVELOPER",
+    location: "",
+    description:
+      "Project Manager and web developer of “Sihate”, a medical records management system that allows patients to make appointments and enables doctors to generate medical records and prescriptions. It was developed using Django Python framework, HTML5, CSS3, Bootstrap 5, and JavaScript.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Apr 2021 - Sep 2021",
+  },
+  {
+    title: "MACHINE LEARNING DEVELOPER",
+    location: "",
+    description:
+      "Machine learning developer of the 'Dynamic Hand Gesture Recognition' project using 2D & 3D CNN.",
+    icon: React.createElement(FaReact),
+    date: "May 2022 - Jul 2022",
+  },
+  {
+    title: "DJANGO WEB DEVELOPER",
+    location: "",
+    description:
+      "Machine learning developer of the 'Dynamic Hand Gesture Recognition' project using 2D & 3D CNN.",
+    icon: React.createElement(FaReact),
+    date: "Aug 2022 - Nov 2022",
   },
 ] as const;
 
