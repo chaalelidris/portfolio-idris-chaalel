@@ -86,24 +86,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Tripnest-Real estates rental platform",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a full-stack developer on this startup project. catering to the Algerian market. Built with modern web technologies including Next.js 13, React Js,Prisma ORM, MongoDB, and more to build a robust and user-friendly platform. It offer features such as property listing,search, booking, and payment integration, providing a seamless rental experience for users.",
+    tags: [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "Tailwind",
+      "Prisma",
+      "Typescript",
+      "OAUTH2",
+    ],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "ECMS",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Educational Committee Management System ECMS for managing committees in the University of Guelma departments.",
+    tags: ["Php", "Html", "Css", "Javascript", "Jquery"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Sihate",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Medical records management system allowing patients to make appointments and enabling doctors to generate medical records and prescriptions.",
+    tags: ["Html", "Css", "MySQL", "Bootstrap", "Python", "Django"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Teamchat",
+    description:
+      "TeamChat: A cutting-edge team communication app developed with Next.js, React, TypeScript, and Prisma ORM, TeamChat offers real-time messaging, a sleek UI, and robust scalability. Leveraging TypeScript for type safety and Prisma ORM for efficient data management, it delivers a dynamic and reliable solution for seamless team collaboration.",
+    tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -115,17 +130,15 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
+  "Node.js",
   "Express",
   "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
 ] as const;
