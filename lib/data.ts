@@ -1,10 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import logoNewsize from "@/public/projects/logo-newsize.png";
+import imageEcms from "@/public/projects/portfolio-comite-managment-system.png";
+import imageIdris from "@/public/projects/portfolio-idris-chaalel.png";
+import imageMigfarm from "@/public/projects/portfolio-migfarm-project.png";
+import imageSihate from "@/public/projects/portfolio-sihate-healthcare.png";
+import imageTripnest from "@/public/projects/portfolio-tripnest.png";
 
 export const links = [
   {
@@ -98,28 +100,28 @@ export const projectsData = [
       "Typescript",
       "OAUTH2",
     ],
-    imageUrl: corpcommentImg,
+    imageUrl: imageTripnest,
   },
   {
     title: "ECMS",
     description:
       "Educational Committee Management System ECMS for managing committees in the University of Guelma departments.",
     tags: ["Php", "Html", "Css", "Javascript", "Jquery"],
-    imageUrl: rmtdevImg,
+    imageUrl: imageEcms,
   },
   {
     title: "Sihate",
     description:
       "Medical records management system allowing patients to make appointments and enabling doctors to generate medical records and prescriptions.",
     tags: ["Html", "Css", "MySQL", "Bootstrap", "Python", "Django"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: imageSihate,
   },
   {
     title: "Teamchat",
     description:
       "TeamChat: A cutting-edge team communication app developed with Next.js, React, TypeScript, and Prisma ORM, TeamChat offers real-time messaging, a sleek UI, and robust scalability. Leveraging TypeScript for type safety and Prisma ORM for efficient data management, it delivers a dynamic and reliable solution for seamless team collaboration.",
     tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: "",
   },
 ] as const;
 
