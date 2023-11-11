@@ -37,6 +37,13 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineering Student",
+    location: "Higher School Of Computer Science ESI-SBA - Algeria",
+    description: "",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov 2020 - Jul 2023",
+  },
+  {
     title: "FULL STACK DEVELOPER",
     location: "",
     description:
