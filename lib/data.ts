@@ -7,6 +7,7 @@ import imageIdris from "@/public/projects/portfolio-idris-chaalel.png";
 import imageMigfarm from "@/public/projects/portfolio-migfarm-project.png";
 import imageSihate from "@/public/projects/portfolio-sihate-healthcare.png";
 import imageTripnest from "@/public/projects/portfolio-tripnest.png";
+import { typeProject } from "@/d";
 
 export const links = [
   {
@@ -22,12 +23,12 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
     name: "Experience",
     hash: "#experience",
+  },
+  {
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -93,7 +94,7 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const projectsData: typeProject[] = [
   {
     title: "Tripnest-Real estates rental platform",
     description:
@@ -108,6 +109,7 @@ export const projectsData = [
       "OAUTH2",
     ],
     imageUrl: imageTripnest,
+    category: ["All", "backend", "frontend"],
   },
   {
     title: "ECMS",
@@ -115,6 +117,7 @@ export const projectsData = [
       "Educational Committee Management System ECMS for managing committees in the University of Guelma departments.",
     tags: ["Php", "Html", "Css", "Javascript", "Jquery"],
     imageUrl: imageEcms,
+    category: ["All", "backend", "frontend"],
   },
   {
     title: "Sihate",
@@ -122,13 +125,15 @@ export const projectsData = [
       "Medical records management system allowing patients to make appointments and enabling doctors to generate medical records and prescriptions.",
     tags: ["Html", "Css", "MySQL", "Bootstrap", "Python", "Django"],
     imageUrl: imageSihate,
+    category: ["All", "backend", "frontend"],
   },
   {
     title: "Teamchat",
     description:
       "TeamChat: A cutting-edge team communication app developed with Next.js, React, TypeScript, and Prisma ORM, TeamChat offers real-time messaging, a sleek UI, and robust scalability. Leveraging TypeScript for type safety and Prisma ORM for efficient data management, it delivers a dynamic and reliable solution for seamless team collaboration.",
     tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma"],
-    imageUrl: "",
+    imageUrl: undefined,
+    category: ["All", "backend", "frontend"],
   },
 ] as const;
 
